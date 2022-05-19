@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Roboto', sans-serif !important;
+}
+#navigationBar{
+    box-shadow: 2px 3px 5px grey;
+}
+header{
+    background-color: rgb(123, 127, 130) !important; 
+    height: 3rem;
+    line-height: 2.5;
+    color: #f1f1f1;
+    width: 100%;
+    font-size: 1.2rem;
+    
+ 
+}
+span i {
+background-color: #ffff;
+border-radius: 50%;
+color:rgb(146, 200, 200) ;
+padding: 6px;
+margin-bottom: -.4rem;
+cursor: pointer;
+}
+
+.navbar, .dropdown-menu{
+ background-color: #fff!important;
+}
+.navbar-brand{
+    font-weight: 500;
+    color: #686b69!important;
+    font-size: 2rem;
+}
+.active ,b{
+    color:aqua !important;
+}
+.nav-link{
+    color: #313131!important;
+    padding-left: 2.5rem !important;
+ 
+}
+.nav-link:hover, .dropdown-item:hover{
+    color:rgb(146, 200, 200) !important ;
+    
+}
+.LogoImg{
+    width: 2.3rem;
+    border-radius: 50%;
+    border:3px solid aqua !important;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right: .3rem;
+    
+}
+.navbar-toggler {
+background-color: #ffffff !important;
+color: rgb(96, 79, 112) !important;
+outline: none;
+border: none;
+
+}
+.dropdown-menu[data-bs-popper] {
+    margin-top: 1rem;
+}
+
+
+.dropdown-item{
+   color:#313131;
+    background-color: none !important;
+      
+   
+}
+#banner{
+height: 100vh;
+background-image: linear-gradient(to bottom,
+    rgba(0,0,0, 0.6),
+    rgba(0,0,0,0.6)),
+    url(../images/poster.jpg);
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 20px;
+  color: #ffffff;
+opacity: .8;
+ 
+}
+#banner:hover {
+    opacity: 1.0;
+  }
+.banner_right{
+      text-align: center;
+  }
+.banner_right h1{
+    padding:15rem 0 0  ;
+    font-size: 2.7rem ;
+    line-height: 2;
+}
+.banner_right p{
+    margin-left: 5rem;
+    width: 75%;
+}
+.btn{
+    color:#313131;
+    background-color: #f1f1f1 !important;
+}
+@media only screen and (max-width: 650px){
+    header{
+    font-size: .8rem;
+    height: 2rem;
+    }
+    .me-3 {
+        margin-right: .5rem!important;
+    }
+    .ms-4 {
+        margin-left: .5rem!important;
+    }
+    .nav-link{
+       text-align: center;
+    }
+  
+
+} 
