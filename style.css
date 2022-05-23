@@ -256,7 +256,7 @@ opacity: .8;
 /*Reviews section end here */
 .card{
     border:none;
-   position:relative;
+    position:relative;
     overflow:hidden;
     border-radius:8px;
     cursor:pointer;
@@ -264,6 +264,7 @@ opacity: .8;
     background-color: rgb(27, 197, 197);
     color:#fff;
     box-shadow: 2px 3px 5px grey;
+    padding: 2rem !important;
 }
 
 
@@ -385,11 +386,23 @@ footer .social-icon li i:hover {
     .nav-link{
        text-align: center;
     }
+    .banner p{
+        width:100% !important;
+        
+    }
+    .banner_right p{
+        margin: 0 auto;
+        text-align: center;
+       
+    }
     .banner_right h1 {
      padding: 4rem 0 0; 
     }
+    .yoga-img img{
+        height:20rem;
+    }
     .about_info{
-        padding: none !important;
+
     }
     .about img {
         max-width: 100%; 
@@ -399,7 +412,7 @@ footer .social-icon li i:hover {
         width: 80%;
     }
    .card{
-       margin: .8rem auto !important;
+       margin: 2rem auto;
     
    }
     .footer-bottom{
